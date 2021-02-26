@@ -12,7 +12,7 @@
 FollowCamera::FollowCamera(Actor* owner)
 	:CameraComponent(owner)
 	,mHorzDist(350.0f)
-	,mVertDist(150.0f)
+	,mVertDist(450.0f)
 	,mTargetDist(100.0f)
 	,mSpringConstant(128.0f)
 {
@@ -31,9 +31,9 @@ void FollowCamera::Update(float deltaTime)
 	Vector3 acel = -mSpringConstant * diff -
 		dampening * mVelocity;
 	// Update velocity
-	mVelocity += acel * deltaTime;
+    mVelocity += acel * deltaTime;
 	// Update actual camera position
-	mActualPos += mVelocity * deltaTime;
+    mActualPos += mVelocity * deltaTime * 2.0f;
 	// Target is target dist in front of owning actor
 	Vector3 target = mOwner->GetPosition() +
 		mOwner->GetForward() * mTargetDist;
