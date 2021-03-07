@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3737F0D925F5145700E92930 /* Job.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3737F0D725F5145700E92930 /* Job.cpp */; };
+		3737F0DC25F514B900E92930 /* Application.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3737F0DA25F514B900E92930 /* Application.cpp */; };
+		3737F0DF25F514E500E92930 /* JobContainer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3737F0DD25F514E500E92930 /* JobContainer.cpp */; };
+		3737F0E225F5150100E92930 /* JobScheduler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3737F0E025F5150100E92930 /* JobScheduler.cpp */; };
+		3737F0E525F5151D00E92930 /* AsyncJob.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3737F0E325F5151D00E92930 /* AsyncJob.cpp */; };
+		3737F0E825F5153800E92930 /* AsyncJobManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3737F0E625F5153800E92930 /* AsyncJobManager.cpp */; };
+		3737F0EB25F5155500E92930 /* Level.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3737F0E925F5155500E92930 /* Level.cpp */; };
 		9206FDC61F140707005078A2 /* Texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9206FDC41F140707005078A2 /* Texture.cpp */; };
 		9206FDC91F140D40005078A2 /* Shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9206FDC71F140D40005078A2 /* Shader.cpp */; };
 		9223C4781F009428009A94D7 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9223C4671F009428009A94D7 /* Game.cpp */; };
@@ -48,6 +55,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3737F0D725F5145700E92930 /* Job.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Job.cpp; sourceTree = "<group>"; };
+		3737F0D825F5145700E92930 /* Job.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Job.hpp; sourceTree = "<group>"; };
+		3737F0DA25F514B900E92930 /* Application.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Application.cpp; sourceTree = "<group>"; };
+		3737F0DB25F514B900E92930 /* Application.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Application.hpp; sourceTree = "<group>"; };
+		3737F0DD25F514E500E92930 /* JobContainer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = JobContainer.cpp; sourceTree = "<group>"; };
+		3737F0DE25F514E500E92930 /* JobContainer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = JobContainer.hpp; sourceTree = "<group>"; };
+		3737F0E025F5150100E92930 /* JobScheduler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = JobScheduler.cpp; sourceTree = "<group>"; };
+		3737F0E125F5150100E92930 /* JobScheduler.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = JobScheduler.hpp; sourceTree = "<group>"; };
+		3737F0E325F5151D00E92930 /* AsyncJob.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AsyncJob.cpp; sourceTree = "<group>"; };
+		3737F0E425F5151D00E92930 /* AsyncJob.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AsyncJob.hpp; sourceTree = "<group>"; };
+		3737F0E625F5153800E92930 /* AsyncJobManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AsyncJobManager.cpp; sourceTree = "<group>"; };
+		3737F0E725F5153800E92930 /* AsyncJobManager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AsyncJobManager.hpp; sourceTree = "<group>"; };
+		3737F0E925F5155500E92930 /* Level.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Level.cpp; sourceTree = "<group>"; };
+		3737F0EA25F5155500E92930 /* Level.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Level.hpp; sourceTree = "<group>"; };
 		9206FDC31F13F7E8005078A2 /* Shaders */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Shaders; sourceTree = "<group>"; };
 		9206FDC41F140707005078A2 /* Texture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Texture.cpp; sourceTree = "<group>"; };
 		9206FDC51F140707005078A2 /* Texture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texture.h; sourceTree = "<group>"; };
@@ -164,6 +185,20 @@
 				92F20C9A1FEB899200FB489A /* Collision.h */,
 				9223C46E1F009428009A94D7 /* Component.cpp */,
 				9223C46F1F009428009A94D7 /* Component.h */,
+				3737F0D725F5145700E92930 /* Job.cpp */,
+				3737F0DA25F514B900E92930 /* Application.cpp */,
+				3737F0DB25F514B900E92930 /* Application.hpp */,
+				3737F0DD25F514E500E92930 /* JobContainer.cpp */,
+				3737F0DE25F514E500E92930 /* JobContainer.hpp */,
+				3737F0E025F5150100E92930 /* JobScheduler.cpp */,
+				3737F0E125F5150100E92930 /* JobScheduler.hpp */,
+				3737F0E325F5151D00E92930 /* AsyncJob.cpp */,
+				3737F0E425F5151D00E92930 /* AsyncJob.hpp */,
+				3737F0E625F5153800E92930 /* AsyncJobManager.cpp */,
+				3737F0E725F5153800E92930 /* AsyncJobManager.hpp */,
+				3737F0E925F5155500E92930 /* Level.cpp */,
+				3737F0EA25F5155500E92930 /* Level.hpp */,
+				3737F0D825F5145700E92930 /* Job.hpp */,
 				92557D981FEC7CD200D046FA /* DialogBox.cpp */,
 				92557D991FEC7CD200D046FA /* DialogBox.h */,
 				92C45AFF1FECD78A00F43356 /* FollowActor.cpp */,
@@ -305,17 +340,20 @@
 				92C45B021FECD78A00F43356 /* FollowCamera.cpp in Sources */,
 				92557D9E1FEC7CD200D046FA /* PauseMenu.cpp in Sources */,
 				92C45B031FECD78A00F43356 /* Skeleton.cpp in Sources */,
+				3737F0E525F5151D00E92930 /* AsyncJob.cpp in Sources */,
 				92557D9A1FEC7CD200D046FA /* Font.cpp in Sources */,
 				92CF0D351F3BB5270086A0F3 /* Renderer.cpp in Sources */,
 				92F20C9F1FEB899300FB489A /* TargetActor.cpp in Sources */,
 				9223C47D1F009428009A94D7 /* Main.cpp in Sources */,
 				92CF0D331F3BB5270086A0F3 /* MeshComponent.cpp in Sources */,
+				3737F0DF25F514E500E92930 /* JobContainer.cpp in Sources */,
 				92F20CA61FEB89CE00FB489A /* PhysWorld.cpp in Sources */,
 				9223C47E1F009428009A94D7 /* Math.cpp in Sources */,
 				9223C4781F009428009A94D7 /* Game.cpp in Sources */,
 				92C45B041FECD78A00F43356 /* BoneTransform.cpp in Sources */,
 				92CF0D2F1F3BB5270086A0F3 /* AudioComponent.cpp in Sources */,
 				92CF0D301F3BB5270086A0F3 /* AudioSystem.cpp in Sources */,
+				3737F0EB25F5155500E92930 /* Level.cpp in Sources */,
 				92F20CA21FEB899300FB489A /* Collision.cpp in Sources */,
 				9223C4801F009428009A94D7 /* SpriteComponent.cpp in Sources */,
 				92C45B051FECD78A00F43356 /* Animation.cpp in Sources */,
@@ -328,13 +366,17 @@
 				92C45B071FECD78A00F43356 /* SkeletalMeshComponent.cpp in Sources */,
 				92B2F51D1FEA28A3009BF7DF /* CameraComponent.cpp in Sources */,
 				92F20CA31FEB899300FB489A /* BallActor.cpp in Sources */,
+				3737F0DC25F514B900E92930 /* Application.cpp in Sources */,
 				92F20CA01FEB899300FB489A /* BallMove.cpp in Sources */,
 				92557D9F1FEC7CD200D046FA /* DialogBox.cpp in Sources */,
+				3737F0D925F5145700E92930 /* Job.cpp in Sources */,
 				9223C4791F009428009A94D7 /* Actor.cpp in Sources */,
 				92CF0D371F3BB5270086A0F3 /* VertexArray.cpp in Sources */,
 				92F20CA11FEB899300FB489A /* BoxComponent.cpp in Sources */,
 				9223C47C1F009428009A94D7 /* Component.cpp in Sources */,
+				3737F0E225F5150100E92930 /* JobScheduler.cpp in Sources */,
 				92CF0D361F3BB5270086A0F3 /* SoundEvent.cpp in Sources */,
+				3737F0E825F5153800E92930 /* AsyncJobManager.cpp in Sources */,
 				9206FDC61F140707005078A2 /* Texture.cpp in Sources */,
 				92CF0D341F3BB5270086A0F3 /* PlaneActor.cpp in Sources */,
 				92557D9D1FEC7CD200D046FA /* UIScreen.cpp in Sources */,
